@@ -1,0 +1,16 @@
+<h1>Edit Your Kitten</h1>
+
+<%= form_for @kitten do |f| %>
+	<%= render 'shared/error_messages', object: f.object %>
+	<%= f.label(:name, "Name:") %>
+	<%= f.text_field(:name) %> <br>
+	<%= f.label(:age, "Age:") %>
+	<%= f.select(:age, options_for_select(1..10)) %><br>
+	<%= f.label(:cuteness, "Cuteness:") %>
+	<%= f.select(:cuteness, options_for_select(1..10)) %><br>
+	<%= f.label(:softness, "Softness:") %>
+	<%= f.select(:softness, options_for_select(1..10)) %><br>
+	<%= f.submit("Update")%> <br>
+<% end %>
+<li><%= link_to "Delete Kitten", kitten_path(@kitten.id),
+				method: :delete, data: { confirm: "You sure?" } %></li>
