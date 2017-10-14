@@ -1,4 +1,4 @@
-<h1>The Odin Kittens</h1>
+<h1>Odin Kittens</h1>
 
 This project features an HTML rendering and JSON rendering application. The main focus is the second part (JSON), where the application will be acting as an API.
 
