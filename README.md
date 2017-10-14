@@ -6,7 +6,7 @@ This project features an HTML rendering and JSON rendering application. The main
 
 https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis
 
-<h2>HTML<h2>
+<h2>HTML</h2>
 
 **Features**
 
@@ -25,14 +25,14 @@ https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis
 	- #new renders a simple Kitten creation form
 
 	- #edit uses the same form (which should be a partial used by both the New and Edit views) to Edit the Kitten
-	
+
 	- #create and #update do their jobs
 
 - **Delete link on the Kitten's Show and Edit pages, as well as next to each Kitten listed in the Index page**
 
 - **A simple display of the flash hash which congratulates the user on adding, editing, or deleting kittens**
 
-<h2>JSON API<h2>
+<h2>JSON API</h2>
 
 - **KittenController's #index method modified to #respond_to JSON and render the proper variables**
 
